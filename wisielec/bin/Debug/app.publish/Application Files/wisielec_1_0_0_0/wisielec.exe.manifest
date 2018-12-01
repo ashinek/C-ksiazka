@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="wisielec.exe" version="1.0.0.0" publicKeyToken="4b8512a3679f5739" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="wisielec" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="wisielec.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="wisielec.exe" size="93184">
+      <assemblyIdentity name="wisielec" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EZ0Va2Z6ZOlMcyQ4PEQmu7VwcIM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=DESKTOP-CSI3QB3\Dominik" issuerKeyHash="ba1a48b2ce89d97725f6215162a17ffa8ed014a2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vSLsM94vnrIxuHx/M3+Qfe1Dm8Y=</DigestValue></Reference></SignedInfo><SignatureValue>q96HNObT7Ooaz3tI7VJiB6SG8lpdXhJBnxcG58OEzqoeJTk+dETH1m6os0OzaPW7kEV7+Bm3q+z2A09lXZQcy/H8LIDsLrtY7Pw6U1e+HqH4qXFtTqnRw+akoqIbjOBEJZN1EnD0jABKueAGYHf9Wtw/Z0GF+cboBBfJMMNUdKE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>th9v+INLnejz9DX8AtT5qtFJ5xmWolXhEACVz40xIMJ6yl+Lru/5EBzntAc5nTSfP7ZPF1jnI46ZvC2I7gCJJh0X6AnXtdApFlMYb0leiktUb83rOmn+UMiAGyVMlUUv2p+G7Zq1ApN3jIgHP/phRGnm4KkV79Ug3dfUwLwqLak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c69b43ed7d907f337f7cb831b29e2fde33ec22bd" Description="" Url=""><as:assemblyIdentity name="wisielec.exe" version="1.0.0.0" publicKeyToken="4b8512a3679f5739" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CSI3QB3\Dominik</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>JkucpXYDjG9SEv/qVnprm/pE2Dg=</DigestValue></Reference></SignedInfo><SignatureValue>Ax33gHumTe+KGT/FHyztXaQu/UnYqTAa6cbACv5SbJPY7Xm2I3e9iD/iBOrKIMLyh/4Q6fi9YtsvbzXz0QLYVD0EcvsZM/yFnggeCc5OaHoKedWoS1y3ml07RSiWCqwdO7li3NM37jZm/KVlIFuWEux9465tveVqvgBTmrZFgcc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>th9v+INLnejz9DX8AtT5qtFJ5xmWolXhEACVz40xIMJ6yl+Lru/5EBzntAc5nTSfP7ZPF1jnI46ZvC2I7gCJJh0X6AnXtdApFlMYb0leiktUb83rOmn+UMiAGyVMlUUv2p+G7Zq1ApN3jIgHP/phRGnm4KkV79Ug3dfUwLwqLak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQSrAI/RDwkYZElbHUMcbjFDANBgkqhkiG9w0BAQUFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAEMAUwBJADMAUQBCADMAXABEAG8AbQBpAG4AaQBrMB4XDTE4MTEyOTIyNTAwNFoXDTE5MTEzMDA0NTAwNFowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBDAFMASQAzAFEAQgAzAFwARABvAG0AaQBuAGkAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAth9v+INLnejz9DX8AtT5qtFJ5xmWolXhEACVz40xIMJ6yl+Lru/5EBzntAc5nTSfP7ZPF1jnI46ZvC2I7gCJJh0X6AnXtdApFlMYb0leiktUb83rOmn+UMiAGyVMlUUv2p+G7Zq1ApN3jIgHP/phRGnm4KkV79Ug3dfUwLwqLakCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBLJsW+qjSYxLTmDJTWFLkdAv2LfxbYrpwnOK7kUJ6Jr/10waUHFPBjKjDcrzB79SomWH4O175NZ9br+nJclF7Td3a9rrizFqcTqv71WRLUkHrYEDD/VNXjyJ3tXth53FvbVlxtYaaQCgCLeGxwhIkf5G1xc5K07O6B+fagwAKm9A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

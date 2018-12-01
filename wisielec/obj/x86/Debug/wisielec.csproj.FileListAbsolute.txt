@@ -1,0 +1,11 @@
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\bin\Debug\wisielec.exe
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\bin\Debug\wisielec.pdb
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\obj\x86\Debug\wisielec.Form1.resources
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\obj\x86\Debug\wisielec.Properties.Resources.resources
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\obj\x86\Debug\wisielec.csproj.GenerateResource.Cache
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\obj\x86\Debug\wisielec.exe
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\obj\x86\Debug\wisielec.pdb
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\bin\Debug\wisielec.exe.manifest
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\bin\Debug\wisielec.application
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\obj\x86\Debug\wisielec.exe.manifest
+c:\users\dominik\documents\visual studio 2010\Projects\wisielec\wisielec\obj\x86\Debug\wisielec.application
